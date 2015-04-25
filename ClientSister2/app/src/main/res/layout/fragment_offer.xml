@@ -1,18 +1,394 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sister.tirta.clientsister2.OfferFragment">
+    tools:context="com.sister.tirta.clientsister2.OfferFragment"
+    android:background="@drawable/background2">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Offer"
-        android:id="@+id/textView4"
-        android:layout_gravity="center" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
 
+        <Button
+            android:layout_width="83dp"
+            android:layout_height="45dp"
+            android:text="Back"
+            android:id="@+id/button4"
+            android:background="@drawable/button"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="left|right"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="25dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginLeft="20dp">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/button6"
+                    android:background="@drawable/button_up" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:text="1"
+                    android:id="@+id/textView34"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="0"
+                    android:gravity="center" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/button7"
+                    android:background="@drawable/button_down" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView15"
+                android:src="@drawable/item_honey"
+                android:layout_weight="5" />
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView26"
+                android:src="@drawable/item_herbs"
+                android:layout_weight="5" />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:layout_marginRight="20dp">
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/button8"
+                    android:background="@drawable/button_up" />
+
+                <TextView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:text="1"
+                    android:id="@+id/textView35"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="0"
+                    android:gravity="center" />
+
+                <Button
+                    style="?android:attr/buttonStyleSmall"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:id="@+id/button9"
+                    android:background="@drawable/button_down" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_width="83dp"
+            android:layout_height="45dp"
+            android:text="Offer"
+            android:id="@+id/button5"
+            android:background="@drawable/button"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/background4"
+            android:gravity="center"
+            android:baselineAligned="true" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView27"
+                    android:src="@drawable/item_honey"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView4"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView28"
+                    android:src="@drawable/item_herbs"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView6"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView29"
+                    android:src="@drawable/item_clay"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView26"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView30"
+                    android:src="@drawable/item_potion"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView27"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView31"
+                    android:src="@drawable/item_mineral"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView28"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:gravity="center"
+            android:baselineAligned="true"
+            android:background="@drawable/background4" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView32"
+                    android:src="@drawable/item_incense"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView29"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView33"
+                    android:src="@drawable/item_gems"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView30"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView34"
+                    android:src="@drawable/item_lifeelixir"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView31"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView35"
+                    android:src="@drawable/item_manacrystal"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView32"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView36"
+                    android:src="@drawable/item_pstone"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView33"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 </FrameLayout>

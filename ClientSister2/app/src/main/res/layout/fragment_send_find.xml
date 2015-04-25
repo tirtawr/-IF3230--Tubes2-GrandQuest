@@ -1,18 +1,322 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sister.tirta.clientsister2.SendFindFragment">
+    tools:context="com.sister.tirta.clientsister2.SendFindFragment"
+    android:background="@drawable/background2">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Send Find"
-        android:id="@+id/textView6"
-        android:layout_gravity="center" />
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" >
+
+        <Button
+            android:layout_width="83dp"
+            android:layout_height="45dp"
+            android:text="Back"
+            android:id="@+id/button2"
+            android:background="@drawable/button"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="left|right"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="25dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView14"
+                android:src="@drawable/item_clay"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="83dp"
+            android:layout_height="45dp"
+            android:text="Find"
+            android:id="@+id/button3"
+            android:background="@drawable/button"
+            android:layout_marginTop="0dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="0dp"
+            android:layout_marginBottom="10dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/background4"
+            android:gravity="center"
+            android:backgroundTintMode="src_in" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView16"
+                    android:src="@drawable/item_honey"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView3"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView17"
+                    android:src="@drawable/item_herbs"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView17"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView18"
+                    android:src="@drawable/item_clay"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView18"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView19"
+                    android:src="@drawable/item_potion"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView19"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView20"
+                    android:src="@drawable/item_mineral"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView20"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="110dp"
+            android:background="@drawable/background4"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView21"
+                    android:src="@drawable/item_incense"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView21"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView22"
+                    android:src="@drawable/item_gems"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView22"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView23"
+                    android:src="@drawable/item_lifeelixir"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView23"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView24"
+                    android:src="@drawable/item_manacrystal"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView24"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="70dp"
+                android:layout_height="fill_parent"
+                android:gravity="center"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp" >
+
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="0dp"
+                    android:id="@+id/imageView25"
+                    android:src="@drawable/item_pstone"
+                    android:layout_weight="4" />
+
+                <TextView
+                    android:layout_width="10dp"
+                    android:layout_height="0dp"
+                    android:text="3"
+                    android:id="@+id/textView25"
+                    android:background="@drawable/text_field"
+                    android:layout_weight="1"
+                    android:gravity="fill" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
 
 </FrameLayout>
