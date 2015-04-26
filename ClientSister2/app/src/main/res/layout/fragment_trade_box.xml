@@ -1,18 +1,339 @@
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.sister.tirta.clientsister2.TradeBoxFragment">
+    tools:context="com.sister.tirta.clientsister2.TradeBoxFragment"
+    android:background="@drawable/background2">
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+    <Button
+        android:layout_width="83dp"
+        android:layout_height="45dp"
+        android:text="Back"
+        android:id="@+id/button10"
+        android:background="@drawable/button"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="left|right"
+        android:layout_marginLeft="25dp"
+        android:layout_marginBottom="25dp" />
 
-    <TextView
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp">
+
+        <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Offered Item"
+                android:id="@+id/textView7"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:textColor="#ff000000"
+                android:layout_column="0"
+                android:textSize="13dp" />
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="30dp"
+                android:text="Demanded Item"
+                android:id="@+id/textView36"
+                android:background="@drawable/button"
+                android:gravity="center"
+                android:textColor="#ff000000"
+                android:layout_column="1"
+                android:textSize="13dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+    <ScrollView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceLarge"
-        android:text="Trade Box"
-        android:id="@+id/textView7"
-        android:layout_gravity="center" />
+        android:id="@+id/scrollView2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginRight="25dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <TableLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|left" >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView45"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView45"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView46"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="50dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView46"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="Fetch!"
+                        android:id="@+id/button15"
+                        android:background="@drawable/button"
+                        android:layout_marginTop="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginBottom="0dp"
+                        android:textSize="10dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|left" >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView43"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView43"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView44"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="50dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView44"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="Fetch!"
+                        android:id="@+id/button14"
+                        android:background="@drawable/button"
+                        android:layout_marginTop="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginBottom="0dp"
+                        android:textSize="10dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|left" >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView41"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView41"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView42"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="50dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView42"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="Cancel"
+                        android:id="@+id/button13"
+                        android:background="@drawable/button"
+                        android:layout_marginTop="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginBottom="0dp"
+                        android:textSize="9dp"
+                        android:textColor="#FFFF3920" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|left" >
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView39"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView39"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView40"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="50dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView40"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="Cancel"
+                        android:id="@+id/button12"
+                        android:background="@drawable/button"
+                        android:layout_marginTop="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginBottom="0dp"
+                        android:textSize="9dp"
+                        android:textColor="#FFFF3920" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:gravity="center_vertical|left">
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView37"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="10dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView37"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <ImageView
+                        android:layout_width="70dp"
+                        android:layout_height="88dp"
+                        android:id="@+id/imageView38"
+                        android:src="@drawable/item_honey"
+                        android:layout_column="0"
+                        android:layout_marginLeft="50dp" />
+
+                    <TextView
+                        android:layout_width="10dp"
+                        android:layout_height="20dp"
+                        android:text="3"
+                        android:id="@+id/textView38"
+                        android:background="@drawable/text_field"
+                        android:gravity="center"
+                        android:layout_column="1" />
+
+                    <Button
+                        android:layout_width="50dp"
+                        android:layout_height="30dp"
+                        android:text="Cancel"
+                        android:id="@+id/button11"
+                        android:background="@drawable/button"
+                        android:layout_marginTop="0dp"
+                        android:layout_gravity="center"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginBottom="0dp"
+                        android:textSize="9dp"
+                        android:textColor="#FFFF3920" />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
 
 </FrameLayout>

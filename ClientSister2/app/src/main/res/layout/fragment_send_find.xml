@@ -81,7 +81,7 @@
                     android:id="@+id/textView3"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -106,7 +106,7 @@
                     android:id="@+id/textView17"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -131,7 +131,7 @@
                     android:id="@+id/textView18"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -156,7 +156,7 @@
                     android:id="@+id/textView19"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -181,7 +181,7 @@
                     android:id="@+id/textView20"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
         </LinearLayout>
 
@@ -214,7 +214,7 @@
                     android:id="@+id/textView21"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -239,7 +239,7 @@
                     android:id="@+id/textView22"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -264,7 +264,7 @@
                     android:id="@+id/textView23"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -289,7 +289,7 @@
                     android:id="@+id/textView24"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -314,7 +314,7 @@
                     android:id="@+id/textView25"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>

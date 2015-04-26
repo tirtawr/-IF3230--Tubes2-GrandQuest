@@ -58,7 +58,7 @@
                     android:id="@+id/count_honey"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -83,7 +83,7 @@
                     android:id="@+id/count_herbs"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -108,7 +108,7 @@
                     android:id="@+id/count_clay"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -133,7 +133,7 @@
                     android:id="@+id/count_mineral"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
         </LinearLayout>
 
@@ -166,7 +166,7 @@
                     android:id="@+id/count_potion"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -191,7 +191,7 @@
                     android:id="@+id/count_incense"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -216,7 +216,7 @@
                     android:id="@+id/count_gems"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
         </LinearLayout>
 
@@ -249,7 +249,7 @@
                     android:id="@+id/count_lifeelixir"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
 
             <LinearLayout
@@ -274,7 +274,7 @@
                     android:id="@+id/count_manacrystal"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
         </LinearLayout>
 
@@ -307,7 +307,7 @@
                     android:id="@+id/count_pstone"
                     android:background="@drawable/text_field"
                     android:layout_weight="1"
-                    android:gravity="fill" />
+                    android:gravity="center" />
             </LinearLayout>
         </LinearLayout>
 
